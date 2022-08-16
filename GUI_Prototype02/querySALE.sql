@@ -1,0 +1,4 @@
+﻿CREATE TABLE SALE(
+	Sale_ID int IDENTITY(1,1) PRIMARY KEY,
+	Sale_Date date
+);

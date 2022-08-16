@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox7.Text" xml:space="preserve">
+    <value>To view an order navigate to the orders page, by clicking on the orders button(menu option under products) on the main menu. All orders will be shown on the order form.
+To search, enter the order ID in the order ID text box, or the Order Details ID in the Order details ID textbox and the specific order will be shown.
+To see all the orders just clear the text box and everything will be shown again.
+</value>
+  </data>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>To delete an order navigate to the orders page, by clicking on the orders button(menu option under products) on the main menu
+The order form will be shown. To delete an order enter either the order ID or order detail ID in the correspondent text box.
+After you have entered the order ID you press the delete button to remove the order.
+</value>
+  </data>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>To update an order navigate to the orders page, by clicking on the orders button(menu option under products) on the main menu.
+The order form will be shown. Type in the order ID text box the order ID, or type in the order details text box the order detail ID that you want to update.To update an order click the update button.
+The button will open a new form with text boxes which has the order information that you can update.
+After the required information is filled in you click the update button.Click the cancel button if you do not want to update the order.
+</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>To create an order navigate to the orders page, by clicking on the orders button(menu option under products) on the main menu
+The order form will be shown. To create an order click the insert button. 
+The button will open a new form with text boxes which you need to fill in.
+After the required information is entered click the insert button to create the order. Click the cancel button if you do not want to create the order.</value>
+  </data>
+  <data name="richTextBox8.Text" xml:space="preserve">
+    <value>To view Stock navigate to the stock page, by clicking on the Stock button(menu option under products) on the main menu. All existing stock will be shown on the stock form.
+To search, enter the Stock ID in the Stock ID text box, or the Stock key in the Stock Key textbox and the specific stock will be shown.
+To see all the stock just clear the text box and everything will be shown again.
+</value>
+  </data>
+  <data name="richTextBox10.Text" xml:space="preserve">
+    <value>To update existing stock navigate to the stock page, by clicking on the Stock button(menu option under products) on the main menu.
+The stock form will be shown. Type in the stock ID text box the Stock ID, or type in the Stock Key text box the Stock Key that you want to update.To update stock click the update button.
+The button will open a new form with text boxes which has the stock information that you can update.
+After the required information is filled in you click the update button.Click the cancel button if you do not want to update the stock.
+</value>
+  </data>
+  <data name="richTextBox11.Text" xml:space="preserve">
+    <value>To add stock navigate to the stock page, by clicking on the Stock button(menu option under products) on the main menu
+The stock form will be shown. To add stock click the insert button. 
+The button will open a new form with text boxes which you need to fill in.
+After the required information is entered click the insert button to add the stock. Click the cancel button if you do not want to add stock.</value>
+  </data>
+  <data name="richTextBox12.Text" xml:space="preserve">
+    <value>To view Sales navigate to the sales page, by clicking on the Sales button(menu option under products) on the main menu. All existing sales will be shown on the sales form.
+To search, enter the Sale ID in the Sale ID text box, or the Sale details ID in the Sales details ID textbox and the specific stock will be shown.
+To see all the sales just clear the text box and everything will be shown again.
+</value>
+  </data>
+  <data name="richTextBox13.Text" xml:space="preserve">
+    <value>To update existing Sales navigate to the sales page, by clicking on the Sales button(menu option under products) on the main menu.
+The stock form will be shown. Type in the sales ID text box the sales ID, or type in the sales order ID box the sales order ID that you want to update.To update sales click the update button.
+The button will open a new form with text boxes which has the order information that you can update.
+After the required information is filled in you click the update button.Click the cancel button if you do not want to update the sales.
+</value>
+  </data>
+  <data name="richTextBox14.Text" xml:space="preserve">
+    <value>To add Sales navigate to the sales page, by clicking on the Sales button(menu option under products) on the main menu
+The sales form will be shown. To add sales click the insert button. 
+The button will open a new form with text boxes which you need to fill in.
+After the required information is entered click the insert button to add sales. Click the cancel button if you do not want to add sales.</value>
+  </data>
+</root>
